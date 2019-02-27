@@ -100,7 +100,7 @@ aside {
                 > a,
                 > a:focus {
                     color: $theme-primary !important;
-                    background-color: transparent;
+                    background-color: #fff;
                     &:hover {
                         background-color: transparent;
                     }
@@ -348,4 +348,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
