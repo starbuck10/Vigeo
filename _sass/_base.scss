@@ -100,7 +100,7 @@ aside {
                 > a,
                 > a:focus {
                     color: $theme-primary !important;
-                    background-color: #fff;
+                    background-color: transparent;
                     &:hover {
                         background-color: transparent;
                     }
@@ -109,7 +109,7 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
+        background-color: #fff;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
